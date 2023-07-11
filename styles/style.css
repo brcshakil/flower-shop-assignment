@@ -91,10 +91,13 @@ body {
 
 .banner-image {
     width: 500px;
+    overflow: hidden;
+    
 }
 
 .banner-image img{
     width: 100%;
+    margin-bottom: -5px;
 }
 /* banner styles end*/
 
@@ -188,7 +191,7 @@ body {
 
 /* hot deal section styles start */
 .hot-deal {
-    background: rgba(229, 84, 115, 0.05);
+    background: rgba(229, 84, 115, 0.15);
     margin: 120px 0;
 }
 .hot-deal-container {
